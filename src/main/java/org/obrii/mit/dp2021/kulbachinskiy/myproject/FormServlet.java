@@ -20,12 +20,13 @@ public class FormServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        Demo data = new Demo (
-            request.getParameter("name"),
-            request.getParameter("gender"),
-            request.getParameterValues("language"),
-            request.getParameter("country")
-        );
+        Application data = new SuperApplication();
+        
+        if(request.getParameter("isAdmin")!=null) {
+            data.setDama(request, true);
+        }
+        else data.setDama(request);
+        
         request.setAttribute("data", data);
         request.getRequestDispatcher("submit.jsp").forward(request, response);
     }

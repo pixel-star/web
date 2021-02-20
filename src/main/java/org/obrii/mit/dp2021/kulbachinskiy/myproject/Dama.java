@@ -1,66 +1,75 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package org.obrii.mit.dp2021.kulbachinskiy.myproject;
 
 import java.util.Arrays;
 import java.util.List;
 
-/**
- *
- * @author danik
- */
-public class Demo {
+public class Dama  implements MyInterface{
     private int id;
     private String name;
     private String gender;
     private List<String> language;
     private String country;
+    private boolean isAdmin;
     
-    public Demo() {
+    public Dama() {
     }
     
-    public Demo(String name, String gender, String[] language, String country) {
+    public Dama(String name, String gender, String[] language, String country, boolean isAdmin) {
         this.name = name;
         this.gender = gender;
-        if (language != null) this.language = Arrays.asList(language);
+        
+        if (language != null ){
+            this.language = Arrays.asList(language);
+        }
+        
         this.country = country;
+        this.isAdmin=isAdmin;
     }
-    
-    public int getId() {
-        return id;
-    }
-    public void setId (int id){
-        this.id = id;
-    }
-    
+
+    @Override
     public String getName() {
         return name;
     }
+
+    @Override
     public void setName(String name) {
         this.name = name;
     }
-    
-    public String getGender(){
+
+    @Override
+    public String getGender() {
         return gender;
     }
+
+    @Override
     public void setGender(String gender) {
         this.gender = gender;
     }
-    public List<String> getLanguage(){
-        return language; 
+
+    @Override
+    public List<String> getLanguage() {
+        return language;
     }
-    public void getLanguage(List<String> language){
-        this.language = language; 
+
+    @Override
+    public void setLanguage(List<String> language) {
+        this.language = language;
     }
+
+    @Override
     public String getCountry() {
         return country;
     }
-    public void setCountry (String country) {
-    this.country = country;
+
+    @Override
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    
+    @Override
+    public String getIsAdmin() {
+        return isAdmin ? "special person":"ordinary person";
     }
     @Override
     public String toString() {

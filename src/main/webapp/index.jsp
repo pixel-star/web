@@ -44,7 +44,7 @@ input[type=submit]:hover {
 
   </div>
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">find yourself in the big world</h1>
+    <h1 class="w3-jumbo w3-animate-top">find yourself in the big world (laba2)</h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
     <form action="${pageContext.request.contextPath}/form" method="get">
             <input type="submit" value="Call form"/>
