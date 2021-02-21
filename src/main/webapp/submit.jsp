@@ -49,7 +49,7 @@
                 <p>Gender: <%=data.getGender()%></p>
                 <p>Languages: <%=data.getLanguage()%></p>
                 <p>Country: <%=data.getCountry()%></p>
-                <p>Elected:<%=data.getIsAdmin()%></p>
+                <p>Elected:<%=data.getIsLove()%></p>
 
 
                 <form action = "<%=request.getContextPath()%>">

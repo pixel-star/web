@@ -97,7 +97,7 @@
                         <option value="usa">USA</option>
                     </select>
                     Do you like pancake?
-                    <input type="checkbox" name="isAdmin" value="on">
+                    <input type="checkbox" name="isLove" value="on">
                     <input type="submit" value="Submit">
 
                 </form>

@@ -9,12 +9,12 @@ public class Dama  implements MyInterface{
     private String gender;
     private List<String> language;
     private String country;
-    private boolean isAdmin;
+    private boolean love;
     
     public Dama() {
     }
     
-    public Dama(String name, String gender, String[] language, String country, boolean isAdmin) {
+    public Dama(String name, String gender, String[] language, String country, boolean isLove) {
         this.name = name;
         this.gender = gender;
         
@@ -23,7 +23,7 @@ public class Dama  implements MyInterface{
         }
         
         this.country = country;
-        this.isAdmin=isAdmin;
+        this.love=isLove;
     }
 
     @Override
@@ -68,8 +68,8 @@ public class Dama  implements MyInterface{
 
     
     @Override
-    public String getIsAdmin() {
-        return isAdmin ? "special person":"ordinary person";
+    public String getIsLove() {
+        return love ? "special person":"ordinary person";
     }
     @Override
     public String toString() {

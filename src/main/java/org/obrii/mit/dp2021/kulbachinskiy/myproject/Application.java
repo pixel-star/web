@@ -21,7 +21,7 @@ public abstract class Application {
         request.getParameter("country"),false);
     }
     
-    public abstract void setDama(HttpServletRequest request, boolean isAdmin);
+    public abstract void setDama(HttpServletRequest request, boolean isLove);
     
     final public MyInterface getDama(){
     return dama;

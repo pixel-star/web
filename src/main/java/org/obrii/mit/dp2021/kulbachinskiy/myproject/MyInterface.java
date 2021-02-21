@@ -20,5 +20,5 @@ public interface MyInterface {
     String getCountry();
     void setCountry(String country);
     
-    String getIsAdmin();
+    String getIsLove();
 }
