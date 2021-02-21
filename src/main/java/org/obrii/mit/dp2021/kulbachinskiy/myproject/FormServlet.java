@@ -22,7 +22,7 @@ public class FormServlet extends HttpServlet {
             throws ServletException, IOException {
         Application data = new SuperApplication();
         
-        if(request.getParameter("isAdmin")!=null) {
+        if(request.getParameter("isLove")!=null) {
             data.setDama(request, true);
         }
         else data.setDama(request);
