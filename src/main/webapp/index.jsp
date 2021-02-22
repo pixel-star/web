@@ -14,6 +14,8 @@
 <style>
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
+body {  display: flex;
+    flex-direction: column;}
 .bgimg {
   background-image: url('d.jpg');
   min-height: 100%;
@@ -35,7 +37,6 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-
 </style>
     <body>
         
@@ -50,9 +51,10 @@ input[type=submit]:hover {
             <input type="submit" value="Call form"/>
         </form>
   </div>
-    
+            
   <div class="w3-display-bottomleft w3-padding-large">
   </div>
+    
 </div>
         
     </body>
