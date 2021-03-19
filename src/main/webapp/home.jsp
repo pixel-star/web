@@ -5,7 +5,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="include/main_header.jsp" />
 
-    <h1 class="title">Welcome!</h1>
+    <h1 class="title">Are you ready to give your life for the king?!</h1>
                 <%List<Data> dataList = (List<Data>) request.getAttribute("data");%>
                     <table class="styled-table">
                         <thead>

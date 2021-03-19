@@ -5,7 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Leonid Lunin</title>
+        <title>THE WORLD!</title>
         <link href="<%=request.getContextPath()%>/css/reset.css" rel="stylesheet" type="text/css"/>
         <link href="<%=request.getContextPath()%>/css/style.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/vendor/bootstrap/css/bootstrap.min.css">
