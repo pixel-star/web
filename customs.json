@@ -1,10 +1,14 @@
 {
     "elements": {},
     "attributes": {
+        "th:text": {},
         "th:action": {
             "context": "form"
         },
         "th:errors": {},
-        "th:field": {}
+        "th:switch": {},
+        "th:field": {},
+        "th:case": {},
+        "th:each": {}
     }
 }
