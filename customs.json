@@ -3,6 +3,8 @@
     "attributes": {
         "th:action": {
             "context": "form"
-        }
+        },
+        "th:errors": {},
+        "th:field": {}
     }
 }
